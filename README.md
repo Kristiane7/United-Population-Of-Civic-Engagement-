@@ -9,7 +9,7 @@ World Domination
 </head>
 <body>
     <header>
-        <h1>Welcome to [Your Super PAC Name]</h1>
+        <h1>Welcome to The United Population Of Civic Engagement</h1>
         <nav>
             <a href="#about">About Us</a> |
             <a href="#issues">Our Issues</a> |
@@ -24,7 +24,7 @@ World Domination
 
     <section id="issues">
         <h2>Our Issues</h2>
-        <p>We focus on [insert key issues your Super PAC supports].</p>
+        <p>We focus on World Domination, and obtaining masive amounts of bagels.</p>
     </section>
 
     <section id="donate">
@@ -34,7 +34,7 @@ World Domination
     </section>
 
     <footer>
-        <p>Paid for by [Your Super PAC Name]. Not authorized by any candidate or candidate's committee.</p>
+        <p>Paid for by The United Population Of Civic Engagement. Not authorized by any candidate or candidate's committee.</p>
     </footer>
 </body>
 </html>
