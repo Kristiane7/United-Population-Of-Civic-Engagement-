@@ -1,7 +1,7 @@
 # United-Population-Of-Civic-Engagement-
 World Domination 
 <header>
-    <img src="thumbs-up.jpg" alt="Excited Thumbs Up" style="width:50%; display:block; margin:auto;">
+    <img src="IMG_3607.jpeg" alt="Excited Thumbs Up" style="width:50%; display:block; margin:auto;">
     <h1>Welcome to The United Population Of Civic Engagement</h1>
     <nav>
         <a href="#about">About Us</a> |
