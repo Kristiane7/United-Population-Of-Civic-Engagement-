@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Beliefs | United Population Of Civic Engagement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Our Beliefs</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="issues.html">Our Issues</a> |
+            <a href="beliefs.html">Our Beliefs</a> |
+            <a href="donate.html">Donate</a>
+        </nav>
+    </header>
+
+    <section>
+        <p>
+            We support all religions and none. Our beliefs are as diverse as the issues we selectively champion or conveniently ignore.
+        </p>
+    </section>
+
+    <footer>
+        <p>Paid for by The United Population Of Civic Engagement. Not authorized by any candidate or candidate's committee.</p>
+    </footer>
+
+</body>
+</html>
