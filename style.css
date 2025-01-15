@@ -1,5 +1,8 @@
-<body {
+/* General Styles */
+body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
@@ -9,6 +12,7 @@ header {
     background-color: #222;
     color: #fff;
     padding: 20px 0;
+    font-size: 22px;
 }
 
 nav a {
@@ -20,17 +24,45 @@ nav a {
 
 section {
     padding: 40px 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
+/* Hero Section */
+.hero {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.hero-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Flyers Section */
+.flyers {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.flyer-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .flyer {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Buttons */
 button {
     padding: 10px 20px;
     background-color: #007BFF;
@@ -38,4 +70,18 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
 }
