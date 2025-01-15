@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The United Population Of Civic Engagement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to The United Population Of Civic Engagement</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="issues.html">Our Issues</a> |
+            <a href="beliefs.html">Our Beliefs</a> |
+            <a href="donate.html">Donate</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Your Voice, Our Mission</h2>
+        <p>Join us in shaping the future with bold ideas and unlimited bagels.</p>
+    </section>
+
+    <section>
+        <h2>Our Flyers</h2>
+        <img src="images/WHAT MAKES A SUPERPAC SUPER?.png" alt="What Makes a SuperPAC Super?" class="flyer">
+        <img src="images/IS THERE AN ISSUE THAT YOU.png" alt="Is There an Issue That You Support or Oppose?" class="flyer">
+    </section>
+
+    <footer>
+        <p>Paid for by The United Population Of Civic Engagement. Not authorized by any candidate or candidate's committee.</p>
+    </footer>
+
+</body>
+</html>
