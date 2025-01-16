@@ -55,30 +55,28 @@ nav a:hover {
 .hero {
     background-color: #333;
     color: #fff;
-    padding: 80px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
+/* Fix for Hero Image */
 .hero-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 300px;          /* Controls width */
+    height: 300px;         /* Controls height */
+    max-width: 100%;       /* Ensures it scales on small screens */
+    border-radius: 50%;    /* Makes the image circular */
+    object-fit: cover;     /* Crops the image to fit without stretching */
     border: 5px solid #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
-}
-
-.hero h2 {
-    font-size: 40px;
     margin-top: 20px;
 }
 
-.hero p {
-    font-size: 18px;
-    max-width: 600px;
-    margin: 20px auto;
-    line-height: 1.5;
+/* Responsive Adjustment for Smaller Screens */
+@media (max-width: 768px) {
+    .hero-img {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 /* Buttons */
