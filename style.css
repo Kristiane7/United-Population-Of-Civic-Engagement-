@@ -1,63 +1,188 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
+/* Reset Styles for Consistency */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Header Styling */
 header {
     background-color: #222;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
     color: #fff;
     margin: 0 15px;
-    text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
 }
 
-/* Section Styles */
-section {
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+nav a:hover {
+    text-decoration: underline;
 }
 
+/* Hero Section */
 .hero {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
-    padding: 60px 20px;
+    padding: 80px 20px;
+    text-align: center;
 }
 
-ul {
-    text-align: left;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 0 20px;
+.hero-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 
-/* Button Styles */
+.hero h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+/* Buttons */
 button {
-    padding: 10px 20px;
+    padding: 12px 30px;
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-/* Footer */
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Flyers Section */
+.flyer-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flyer {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.flyer:hover {
+    transform: scale(1.05);
+}
+
+/* List Styling for Core Values */
+ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
 footer {
     background-color: #222;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer button {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .flyer {
+        width: 250px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
 }
